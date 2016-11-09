@@ -1,0 +1,103 @@
+
+#wrapper {
+        width:960px;
+        margin-left: auto;
+        margin-right: auto;	
+		background-image:url(http://www.robertbernhardt.com/img/internet-01.jpg);
+		background-size:100px auto;
+		background-repeat:no-repeat;
+		padding:0px;
+		
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.resize{
+	height:399px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#header {
+        background-color: #C4E5E4;
+        text-align:center;
+		text-decoration:none;
+		color:white;
+		margin-left:125px;	
+		height:100px;
+}
+
+#nav{
+    position: relative;
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+    top: 19px;
+	
+}
+#nav a{
+	color:white;
+	text-align:center;
+	text-decoration:none;
+}
+
+#nav li.selected{
+	text-decoration: underline;
+	background-color:#536968 !important;
+}
+
+
+#nav ul {
+        margin:0px;
+        padding: 0px;
+}
+
+
+#nav li{
+        display:inline;
+		padding-left:40px;
+		padding-right:40px;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-right:2px solid #fff;
+		font-size:13px;
+		background-color:#839998;
+}
+
+#nav li:hover{
+	background-color:#49CCCB;
+}
+
+
+#banner {
+        clear: both;
+        background-color:#49CCCB;
+        height: 400px;
+        width:960px;
+		
+}
+#banner h1 {
+        margin: 0px;
+        padding: 0px;
+}
+
+
+#info1, #info2, #info3 {
+		background-color:#C4E5E4;
+		border-radius:15px;
+		padding-left:3px;
+        float: left;
+        width:33%;
+		height:130px;
+}
+
+
+
+#logo h1{
+         padding-top: 10px;
+         margin:0px;
+}
+
+#footer {
+        background-color:#839998;
+        clear: both;
+		text-align:right;
+}
