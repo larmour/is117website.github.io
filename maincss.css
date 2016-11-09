@@ -68,15 +68,16 @@
 
 
 #banner {
+		
         clear: both;
         background-color:#49CCCB;
         height: 400px;
         width:960px;
 		
 }
-#banner h1 {
-        margin: 0px;
-        padding: 0px;
+.facts {
+        display:block;
+		margin:auto;
 }
 
 
@@ -97,6 +98,10 @@
 }
 
 #footer {
+		top:0;
+		bottom:0;
+		right:0;
+		left:0;
         background-color:#839998;
         clear: both;
 		text-align:right;
