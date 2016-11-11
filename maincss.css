@@ -81,9 +81,11 @@
 }
 
 
+
 #info1, #info2, #info3 {
 		background-color:#C4E5E4;
 		border-radius:15px;
+		padding-bottom:35px;
 		padding-left:3px;
         float: left;
         width:33%;
